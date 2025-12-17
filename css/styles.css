@@ -441,20 +441,23 @@ body {
   justify-content: space-between;
   gap: 24px;
 }
-.subscribe-form-label {
-}
-
 .subscribe-input {
   width: 264px;
   height: 40px;
-  padding: 8px 15px;
+  padding: 16px;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  color: var(--white);
+  background-color: transparent;
+
   border: 1px solid var(--white);
   border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  background-color: transparent;
-  color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   outline: transparent;
+
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-input::placeholder {
@@ -628,7 +631,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: var(--navy-blue-modal);
   background-color: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
